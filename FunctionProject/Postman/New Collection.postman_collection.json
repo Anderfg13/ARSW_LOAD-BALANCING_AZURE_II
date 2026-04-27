@@ -1,0 +1,38 @@
+{
+  "info": {
+    "_postman_id": "99cfa2b8-203e-4fc2-91f0-a551b70a9557",
+    "name": "New Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "44412176"
+  },
+  "item": [
+    {
+      "name": "TestFibonacci",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://functionprojectfibonacci1-ctbrdkb6ajdkf4dw.canadacentral-01.azurewebsites.net/api/Fibonacci?nth=10000",
+          "protocol": "https",
+          "host": [
+            "functionprojectfibonacci1-ctbrdkb6ajdkf4dw",
+            "canadacentral-01",
+            "azurewebsites",
+            "net"
+          ],
+          "path": [
+            "api",
+            "Fibonacci"
+          ],
+          "query": [
+            {
+              "key": "nth",
+              "value": "10000"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
